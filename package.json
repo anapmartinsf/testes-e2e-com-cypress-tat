@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "cypress.config.js",
   "scripts": {
-    "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
+    "lint": "eslint cypress/**/*.js --ignore-pattern cypress/screenshots/** --ignore-pattern cypress/videos/** && eslint cypress.config.js",
     "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix",
     "cy:open": "cypress open",
     "cy:open:tablet": "cypress open --config viewportWidth=767,viewportHeight=480",
