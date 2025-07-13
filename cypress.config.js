@@ -7,6 +7,7 @@ module.exports = defineConfig({
       viewportWidthBreakpoint: 768,
     },
     chromeWebSecurity: false,
+    video: true,
   },
   projectId: "di337f",
 });
